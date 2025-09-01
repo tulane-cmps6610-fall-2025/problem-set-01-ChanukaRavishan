@@ -72,31 +72,53 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Lets assume there is a set that $o(g(n)) \cap \omega(g(n))$
 
-      f(n) \in \Omega(g(n)) states that,
+      f(n) \in \Omega(g(n)) states that, 
 
-            = f(n) <= c g(n) , for c> 0 and n > 0
+            There exists a c > 0 and n_0 such that for all n > n_0 f(n) <= c g(n)
 
       f(n) \in w(g(n)) states that,
 
-            = f(n) >= c g(n) , for c> 0 and n > 0
+            For all c > 0, there exists n_0 such that for all n > n_0  f(n) >= c g(n)
 
-      Therefore c g(n) < f(n) < c g(n)
-
-
+      Therefore c g(n) < f(n) < c g(n) cannot hold. There cannot hold any f(n) that satisfy this inequality.
 
 
 
 
 2. **SPARC to Python**
 
-  - 2b
+  - 2b The function takes in two arguments, the definition looks like an attempt to implement a function to return the greatest common divider but its not. The function returns the largest value out of the two inputs.
+
+  - 2c
+
+      A constant work O(1) is done in every recursive call. There are two comparisons at the beginning, followed by a minimum, a maximum, a modulus, and a recursive function call. In the recursive call, the second argument gets smaller and quickly becomes 0.
+
+      Work = No of steps * Work done in each step
+
+	        W= O(log(min(a,b))) * O(1)
+
+	        W = O(log(min(a,b)))
+
+      Span = Critical path length
+
+	        S = O(min(a,b))
 
 3. **Parallelism and recursion**
 
-  - 3b
+  - 3b W(n) = O(n)  (we iterate the for loop with n elements, and inside a loop a constant work is being done, so the work is linearly proportional to the input)
+
+      S(n) = O(n)   (critical path length)
 
   - 3d
 
+      W(n) = 2W(n/2) + 1
+
+      S(n) = S(n/2) + 1
+
   - 3e
+
+      Work and Span will be the same as in 3d, due to each recursive call involving similar amount of work done in constant times
   
 4. **GCD**
+
+
