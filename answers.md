@@ -95,13 +95,13 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Work = No of steps * Work done in each step
 
-	        W= O(log(min(a,b))) * O(1)
+	  $ W= O(log(min(a,b))) * O(1) $
 
-	        W = O(log(min(a,b)))
+	  $ W = O(log(min(a,b))) $
 
       Span = Critical path length
 
-	        S = O(min(a,b))
+	  $ S = O(min(a,b)) $
 
 3. **Parallelism and recursion**
 
