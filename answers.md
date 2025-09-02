@@ -10,7 +10,11 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not?
 
-      Finding c and n_o such that for all c > 0 and n > n_o,  2^(n+1) <= c . 2^n
+      Find constants \( c \) and \( n_0 \) such that, for all \( n > n_0 \), 
+        \[
+            2^{n+1} \leq c \cdot 2^n.
+        \]
+
 
       let c = 2, and n_o = 1
 
