@@ -10,9 +10,9 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1a. Is $2^{n+1} \in O(2^n)$? Why or why not?
 
-      Finding c and $n_o$ such that for all $c > 0$ and $n > n_o,  2^(n+1) <= c . 2^n$
+      Finding c and $n_o$ such that for all $c > 0$ and $n > n_o$,   $2^{n+1} <= c . 2^n$
 
-      let c = 2, and n_o = 1
+      let $c = 2, and n_o = 1$
 
       Then for all n > n_o
 
@@ -22,17 +22,17 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1b. Is $2^{2^n} \in O(2^n)$? Why or why not?
 
-      let x = 2^n
+      let $x = 2^n$
 
-      then, 2^x >= x for all n >= 0
+      then, $2^x >= x$ for all $n >= 0$
 
       Theirfore, the statement is FALSE
  
   - 1c. Is $n^{1.01} \in O(\mathrm{\log}^2 n)$?
 
-      Finding c and n_o such n^1.01 <= c log^2n
+      Finding c and $n_o$ such $n^1.01 <= c log^2n$
 
-      g(n) / f(n) = n^1.01 / log^2n
+      $g(n) / f(n) = n^1.01 / log^2n$
 
                   = $\lim_{x \to \infty} n^1.01 / log^2n
 
@@ -44,15 +44,15 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{\log}^2 n)$?
 
-      As proven above n^1.01 grows faster than log^2n, and the ratio doesn't stay bounded by any constant c
+      As proven above $n^1.01$ grows faster than $log^2n$, and the ratio doesn't stay bounded by any constant c
 
       Theirfore, the statement is TRUE
 
   - 1e. Is $\sqrt{n} \in O(\mathrm{\log}^3 n)$?
 
-      Finding c and n_o such n^0.5 <= c log^3n
+      Finding c and n_o such $n^0.5 <= c log^3n$
 
-      g(n) / f(n) = n^0.5 / log^3n
+      $g(n) / f(n) = n^0.5 / log^3n$
 
                   = $\lim_{x \to \infty} n^0.5 / log^3n
 
@@ -64,7 +64,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1f. Is $\sqrt{n} \in \Omega(\mathrm{\log}^3 n)$?
 
-      As proven above n^0.5 grows faster than log^3n, and the ratio doesn't stay bounded by any constant c
+      As proven above $n^0.5$ grows faster than $log^3n$, and the ratio doesn't stay bounded by any constant c
 
       Theirfore, the statement is TRUE
 
@@ -72,15 +72,15 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Lets assume there is a set that $o(g(n)) \cap \omega(g(n))$
 
-      f(n) \in \Omega(g(n)) states that, 
+      $f(n) \in \Omega(g(n))$ states that, 
 
-            There exists a c > 0 and n_0 such that for all n > n_0 f(n) <= c g(n)
+            There exists a c > 0 and $n_0$ such that for all $n > n_0 f(n) <= c g(n)$
 
-      f(n) \in w(g(n)) states that,
+      $f(n) \in w(g(n))$ states that,
 
-            For all c > 0, there exists n_0 such that for all n > n_0  f(n) >= c g(n)
+            For all c > 0, there exists n_0 such that for all $n > n_0  f(n) >= c g(n)$
 
-      Therefore c g(n) < f(n) < c g(n) cannot hold. There cannot hold any f(n) that satisfy this inequality.
+      Therefore $c g(n) < f(n) < c g(n)$ cannot hold. There cannot hold any f(n) that satisfy this inequality.
 
 
 
