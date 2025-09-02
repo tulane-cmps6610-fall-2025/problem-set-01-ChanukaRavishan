@@ -32,11 +32,11 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Finding c and $n_o$ such $n^{1.01} <= c log^2n$
 
-      $g(n) / f(n) = n^{1.01} / log^2n$
+      $g(n) / f(n) = n^{1.01} / log^2n
 
-                  = $\lim_{x \to \infty} n^1.01 / log^2n$
+                  = \lim_{x \to \infty} n^1.01 / log^2n
 
-                  = $\infty$
+                  = \infty$
 
       This means that g(n) grows faster than f(n), and the ratio doesn't stay bounded by any constant c
 
@@ -52,11 +52,11 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Finding c and n_o such $n^{0.5} <= c log^3n$
 
-      $g(n) / f(n) = n^0.5 / log^3n$
+      $g(n) / f(n) = n^0.5 / log^3n
 
-                  = $\lim_{x \to \infty} n^0.5 / log^3n$
+                  = \lim_{x \to \infty} n^0.5 / log^3n
 
-                  = $\infty$
+                  = \infty$
 
       This means that g(n) grows faster than f(n), and the ratio doesn't stay bounded by any constant c
 
