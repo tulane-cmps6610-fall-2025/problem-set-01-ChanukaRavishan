@@ -74,11 +74,11 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       $f(n) \in \Omega(g(n))$ states that, 
 
-            There exists a c > 0 and $n_0$ such that for all $n > n_0 f(n) <= c g(n)$
+        There exists a c > 0 and $n_0$ such that for all $n > n_0 f(n) <= c g(n)$
 
       $f(n) \in w(g(n))$ states that,
 
-            For all c > 0, there exists n_0 such that for all $n > n_0  f(n) >= c g(n)$
+        For all c > 0, there exists $n_0$ such that for all $n > n_0  f(n) >= c g(n)$
 
       Therefore $c g(n) < f(n) < c g(n)$ cannot hold. There cannot hold any f(n) that satisfy this inequality.
 
