@@ -30,9 +30,9 @@ Place all written answers from `assignment-01.md` here for easier grading.
  
   - 1c. Is $n^{1.01} \in O(\mathrm{\log}^2 n)$?
 
-      Finding c and $n_o$ such $n^(1.01) <= c log^2n$
+      Finding c and $n_o$ such $n^{1.01} <= c log^2n$
 
-      $g(n) / f(n) = n^(1.01) / log^2n$
+      $g(n) / f(n) = n^{1.01} / log^2n$
 
                   = $\lim_{x \to \infty} n^1.01 / log^2n
 
@@ -44,7 +44,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1d. Is $n^{1.01} \in \Omega(\mathrm{\log}^2 n)$?
 
-      As proven above $n^(1.01)$ grows faster than $log^2n$, and the ratio doesn't stay bounded by any constant c
+      As proven above $n^{1.01}$ grows faster than $log^2n$, and the ratio doesn't stay bounded by any constant c
 
       Theirfore, the statement is TRUE
 
