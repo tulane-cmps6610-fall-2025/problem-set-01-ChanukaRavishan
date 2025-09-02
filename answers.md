@@ -111,12 +111,13 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 3d
 
-      W(n) = 2W(n/2) + 1
+      $W(n) = 2W(n/2) + 1 \in O(n) $
 
-      S(n) = S(n/2) + 1
+      $S(n) = 2S(n/2) + 1 \in O(n) $
 
   - 3e
 
-      Work and Span will be the same as in 3d, due to each recursive call involving similar amount of work done in constant times
+      $W(n) = 2W(n/2) + 1 \in O(n) $
 
+      $S(n) = S(n/2) + 1 \in O(logn) $
 
