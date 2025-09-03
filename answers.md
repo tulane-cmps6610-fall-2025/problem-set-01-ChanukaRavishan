@@ -34,9 +34,9 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       $\frac{g(n)}{f(n)} = \frac{n^{1.01}}{log^2n}$
 
-      $ = \lim_{x \to \infty} n^1.01 / log^2n$
+      $= \lim_{x \to \infty} \frac{n^{1.01}}{log^2n}$
 
-      $ = \infty $
+      $= \infty $
 
       This means that g(n) grows faster than f(n), and the ratio doesn't stay bounded by any constant c
 
