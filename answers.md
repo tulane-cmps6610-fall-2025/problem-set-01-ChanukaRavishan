@@ -50,13 +50,13 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 1e. Is $\sqrt{n} \in O(\mathrm{\log}^3 n)$?
 
-      Finding c and n_o such $n^{0.5} <= c log^3n$
+      Finding c and $n_o$ such $n^{0.5} <= c log^3 n$
 
-      $$g(n) / f(n) = n^0.5 / log^3n
+      $\frac{g(n)}{f(n)} = \frac{n^{0.5}}{log^3 n}$
 
-                  = \lim_{x \to \infty} n^{0.5} / log^3n
+      $= \lim_{x \to \infty} \frac{n^{0.5}}{log^3 n}$
 
-                  = \infty$$
+      $= \infty$
 
       This means that g(n) grows faster than f(n), and the ratio doesn't stay bounded by any constant c
 
