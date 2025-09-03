@@ -12,7 +12,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Finding c and $n_o$ such that for all $c > 0$ and $n > n_o$,   $2^{n+1} <= c . 2^n$
 
-      let $c = 2, and n_o = 1$
+      let $c = 2$, and $ n_o = 1$
 
       Then for all $n > n_o$
 
@@ -32,11 +32,11 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Finding c and $n_o$ such $n^{1.01} <= c log^2n$
 
-      $ \frac{g(n)}{f(n)} = \frac{n^{1.01}}{log^2n}$
+      $\frac{g(n)}{f(n)} = \frac{n^{1.01}}{log^2n}$
 
-                 $ = \lim_{x \to \infty} n^1.01 / log^2n$
+      $ = \lim_{x \to \infty} n^1.01 / log^2n$
 
-                 $ = \infty $
+      $ = \infty $
 
       This means that g(n) grows faster than f(n), and the ratio doesn't stay bounded by any constant c
 
