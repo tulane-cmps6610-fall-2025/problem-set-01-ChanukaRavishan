@@ -131,7 +131,7 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
   - 3e
 
-      $W(n) = 2W(n/2) + 1 \in O(n) $
+      $W(n) = 2W(n/2) + 1 \in O(logn) $
 
       $S(n) = S(n/2) + 1 \in O(logn) $
 
