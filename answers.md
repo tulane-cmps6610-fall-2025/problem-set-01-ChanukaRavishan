@@ -68,19 +68,33 @@ Place all written answers from `assignment-01.md` here for easier grading.
 
       Theirfore, the statement is TRUE
 
-  - 1g. Prooving that $o(g(n)) \cap \omega(g(n))$ is the empty set.
+  - 1g. Proving that $o(g(n)) \cap \omega(g(n))$ is the empty set.
 
-      Lets assume there is a set that $o(g(n)) \cap \omega(g(n))$
+      Lets assume there exist a set that $o(g(n)) \cap \omega(g(n))$
 
-      $f(n) \in \Omega(g(n))$ states that, 
+      $f(n) \in \O(g(n))$ states that, 
 
-        There exists a c > 0 and $n_0$ such that for all $n > n_0 f(n) <= c g(n)$
+      **There exists a C > 0** and $n_0$ such that for all $n > n_0$,  $f(n) <= C g(n)$
+
+      $\frac{f(n)}{g(n)}$ <= C
 
       $f(n) \in w(g(n))$ states that,
 
-        For all c > 0, there exists $n_0$ such that for all $n > n_0  f(n) >= c g(n)$
+      **For all c > 0**, there exists $n_1$ such that for all $n > n_1$,  $f(n) >= c g(n)$
 
-      Therefore $c g(n) < f(n) < c g(n)$ cannot hold. There cannot hold any f(n) that satisfy this inequality.
+      $\frac{f(n)}{g(n)}$ >= c
+
+      Now lets pick a specific constant, say C = 2 and c 1,
+
+      $\frac{f(n)}{g(n)}$ <= 2
+
+      $\frac{f(n)}{g(n)}$ <= 1
+
+      Take N = max(n_o, n_1), for any n > N, both inequalities must hold simultaneously.
+
+      2 <= $\frac{f(n)}{g(n)}$ <= 1
+      
+      Which is impossible. There cannot hold any f(n) that satisfy this inequality.
 
 
 
